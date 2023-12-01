@@ -1,22 +1,37 @@
-import Link from "next/link";
-import { useEffect } from "react";
-import pageRouting from "../../services/PageRouting";
-import { useRouter } from "next/navigation";
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import styles from './Header.module.scss'
 
 export default function Header() {
-  const router: AppRouterInstance = useRouter();
+  const navArray: Array<string> = ['Homepage', 'About', 'Portfolio', 'Resume'];
 
   return (
     <header className={styles['header']}>
       <nav className={styles['nav']}>
         <ul>
-          <li><button>Homepage</button></li>
-          <li><button>About</button></li>
-          <li><button>Portfolio</button></li>
+          {navArray.map((item) => (
+            <li key={item}>
+              <button onClick={(e) => handleScroll(e, item)}>
+                {item}
+              </button>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
   )
+}
+
+function handleScroll(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, item: string): void {
+  e.preventDefault();
+  
+  if (e.currentTarget !== null) {
+    const itemName = item.toLowerCase();
+    const targetId = itemName.replace(/.*\#/, "");
+    const element = document.getElementById(targetId);
+
+    if (element !== null) {
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }
 }
