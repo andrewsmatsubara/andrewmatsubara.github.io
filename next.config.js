@@ -18,12 +18,7 @@ const nextConfig = {
     });
 
     return config;
-  },
-  experimental: {
-    images: {
-      domains: ['andrewsmatsubara.github.io'],
-    },
-  },
+  }
 };
 
 module.exports = nextConfig
