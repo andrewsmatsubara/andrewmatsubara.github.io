@@ -2,6 +2,8 @@
 const path = require('path');
 
 const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
   webpack: (config) => {
     config.module.rules.push({
       test: /\.scss$/,
