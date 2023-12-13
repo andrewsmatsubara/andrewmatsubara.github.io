@@ -1,7 +1,6 @@
 'use client'
 
 import About from "./pages/about/about";
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomePage from "./pages/homepage/homepage";
 import Portfolio from "./pages/portfolio/portfolio";
@@ -16,7 +15,6 @@ export default function Home() {
       <About />
       <Portfolio />
       <Resume />
-      <Footer />
     </div>
   )
 }
