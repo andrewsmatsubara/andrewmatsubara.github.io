@@ -48,4 +48,4 @@ function handleScroll(): void {
 
 const aboutH3: string = '\"Technology, Geography, Music, Football, Games and... frogs\"';
 
-const aboutParagraph: string = 'Hello! My name is Andrews, I currently at Geopixel as a software engineer. I have a bachelor\'s degree in geography from the University of São Paulo. For those who wants to know me, I could call myself as a passionate about technology, games and music. GIS development enthusiast. In my free time, I follow football from all over the world and look for useless facts. Oh, and I love frogs.';
+const aboutParagraph: string = 'Hello! My name is Andrews, I currently work at Geopixel as a software engineer. I have a bachelor\'s degree in geography from the University of São Paulo. For those who wants to know me, I could call myself as a passionate about technology, games and music. GIS development enthusiast. In my free time, I follow football from all over the world and look for useless facts. Oh, and I love frogs.';

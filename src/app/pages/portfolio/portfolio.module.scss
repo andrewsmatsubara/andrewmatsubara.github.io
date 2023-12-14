@@ -3,4 +3,12 @@
   height: 100vh;
   background-image: url("../../../../images/yellow1.jpg");
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }

@@ -3,4 +3,15 @@
   height: 100vh;
   background-image: url("../../../../images/yellow3.jpg");
   background-size: cover;
+  display: flex;
+}
+
+.resume main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
 }
