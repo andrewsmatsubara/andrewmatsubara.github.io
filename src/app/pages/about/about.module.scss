@@ -4,4 +4,46 @@
   display: flex;
   background-image: url("../../../../images/yellow2.jpg");
   background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 75%;
+}
+
+.written-about-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  opacity: 0;
+}
+
+.about-paragraph {
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin: 0;
+}
+
+.about-h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin: 0;
+}
+
+.profile-image {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
 }
