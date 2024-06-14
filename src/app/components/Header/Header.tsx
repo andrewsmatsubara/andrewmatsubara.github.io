@@ -30,7 +30,7 @@ function handleScroll(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, item: 
 
     if (element !== null) {
       element.scrollIntoView({
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     }
   }

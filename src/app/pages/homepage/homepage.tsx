@@ -52,5 +52,5 @@ function type() {
   }
 }
 
-const introductionText: string = 'Hi there! My name is Andrews and I\'m a web developer :) Welcome to my website!';
+const introductionText: string = 'Hi there!\nMy name is Andrews and I\'m a web developer :)\nWelcome to my website!';
 let textIndex: number = 0;

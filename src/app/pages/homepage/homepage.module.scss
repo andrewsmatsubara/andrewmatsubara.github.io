@@ -38,16 +38,18 @@
 }
 
 .welcome-text {
+  min-height: 15%;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   overflow: hidden;
+  white-space: pre-wrap;
 }
 
 .welcome-text::after {
   content: '|';
   animation: blink-caret .75s step-end infinite;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @keyframes blink-caret {
